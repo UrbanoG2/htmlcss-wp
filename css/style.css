@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* generic rules */
@@ -19,10 +20,22 @@
     margin: 20px auto;
 }
 
+#logo{
+    height: 70px;
+}
+
+/* nav rules */
+
+nav a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgb(180, 180, 180);
+    font-size: 0.8em;
+}
+
 header div {
     width: 100%;
     height: 100px;
-    background-color: pink;
 }
 
 .middle-container {
