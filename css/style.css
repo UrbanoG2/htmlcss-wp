@@ -29,7 +29,7 @@
 nav a {
     text-decoration: none;
     margin-right: 5px;
-    color: rgb(180, 180, 180);
+    color: rgb(148, 148, 148);
     font-size: 0.8em;
 }
 
@@ -84,12 +84,10 @@ header div {
 }
 
 .column-head span {
-    color: rgb(180, 180, 180);
+    color: rgb(148, 148, 148);
 }
 
 /* columns */
-
-
 
 
 .jelly2 {
@@ -98,10 +96,7 @@ header div {
     border-radius: 10px;
 }
 
-#col-img {
-    height: 200px;
-    background-color: rgba(128, 0, 128, 0.226);
-}
+
 
 .col-left {
     background-image: url(../img/img-1.jpg);
@@ -112,8 +107,20 @@ header div {
     margin: 15px 0;
 }
 
+h3 {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(148, 148, 148);
+    margin-top: 10px;
+}
+
 .col-center {
     width: calc(60% - 30px) ;
+    height: 195px;
     float: left;
     margin: 15px;
     background-image: url(../img/banner-2.jpg);
