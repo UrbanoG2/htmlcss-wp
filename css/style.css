@@ -89,23 +89,52 @@ header div {
 
 /* columns */
 
-.col-left,
-.col-right {
-    width: 25%;
-    height: 500px;
-    background-color: lightskyblue;
+
+
+
+.jelly2 {
+    height: 195px;
+    background-color: rgba(128, 0, 128, 0.226);
+    border-radius: 10px;
+}
+
+#col-img {
+    height: 200px;
+    background-color: rgba(128, 0, 128, 0.226);
+}
+
+.col-left {
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20%;
     float: left;
     margin: 15px 0;
-
 }
 
 .col-center {
-    width: calc(50% - 30px) ;
-    height: 500px;
-    background-color: lightskyblue;
+    width: calc(60% - 30px) ;
     float: left;
     margin: 15px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+
+.col-right {
+    background-image: url(../img/img-6.jpg);  
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width: 20%;
+    float: left;
+    margin: 15px 0;
+} 
+
+
+
+
 
 footer div {
     width: 100%;
